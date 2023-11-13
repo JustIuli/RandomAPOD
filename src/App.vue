@@ -36,7 +36,7 @@ export default {
   },
   setup() {
     const info = ref({});
-    const API_KEY = ''; // add your api key , you can get one at https://api.nasa.gov/index.html
+    const API_KEY = 'JgRtqhnRHzr4Zg04UnGj8S6tzFueD0fMw74fxYue'; // add your api key , you can get one at https://api.nasa.gov/index.html
 
     const generateRandomDate = (from) => {
       from = new Date(from);
